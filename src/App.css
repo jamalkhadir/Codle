@@ -1,0 +1,154 @@
+.App {
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.terminate h1{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.terminate h3{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.terminate span{
+  color: #528d4e;
+}
+
+body {
+  padding: 0%;
+  margin: 0;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  display: grid;
+  place-items: center;
+}
+
+#navbar_logo {
+  margin: 0;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 550;
+  background-color: #528d4e;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+#navbar_logo:hover{
+  background-color: #2e502c;
+  transition: all 0.5s ease-out;
+}
+
+#correct {
+  background-color: #528d4e;
+}
+
+#almost {
+  background-color: #b49f39;
+}
+
+#error {
+  background-color: #3a393c;
+}
+
+#wrong {
+  background-color: #3a393c;
+}
+
+.codle {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  flex-direction: column;
+  width: 100vw;
+  height: calc(100vh - 170px);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 550px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 33%;
+  margin: 3px;
+}
+
+.key {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 50px;
+  height: 70px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#big {
+  width: 80px;
+}
+
+.toprow {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.middlerow {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.bottomrow {
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+}
+
+.letter {
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: whitesmoke;
+  flex: 33%;
+  height: 100%;
+  border: 1px solid rgb(150, 150, 150);
+  margin: 3px;
+}
+
+.keyboard {
+  width: 700px;
+  height: 300px;
+  margin-top: 50px;
+}
