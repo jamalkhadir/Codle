@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <a href="/Codle" id="navbar_logo">Codle</a>
+        <a href="https://jamalkhadir.github.io/Codle/" id="navbar_logo">Codle</a>
       </nav>
       <AppContext.Provider 
         value={{grid, setGrid, currentAttempt, setCurrentAttempt, typing, entering, deleting, solution, wrongLetter, setWrongLetter, terminate, setTerminate}}
