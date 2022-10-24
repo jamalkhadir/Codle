@@ -76,3 +76,4 @@ admin
 alert
 throw
 point
+local
