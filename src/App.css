@@ -79,8 +79,8 @@ nav {
 .grid {
   display: flex;
   flex-direction: column;
-  width: 450px;
-  height: 550px;
+  width: 420px;
+  height: 350px;
   border: 1px solid black;
 }
 
