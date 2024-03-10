@@ -77,3 +77,7 @@ alert
 throw
 point
 local
+trace
+tests
+types
+linux
