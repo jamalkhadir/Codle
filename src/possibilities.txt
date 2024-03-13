@@ -82,3 +82,7 @@ tests
 types
 linux
 pivot
+block
+proxy
+cloud
+spoof
