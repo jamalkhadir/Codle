@@ -91,3 +91,4 @@ state
 tuple
 timer
 class
+regex
