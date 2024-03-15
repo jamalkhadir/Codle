@@ -90,3 +90,4 @@ agile
 state
 tuple
 timer
+class
