@@ -93,3 +93,4 @@ timer
 class
 regex
 token
+shell
