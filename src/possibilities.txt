@@ -86,3 +86,4 @@ block
 proxy
 cloud
 spoof
+agile
