@@ -106,3 +106,5 @@ input
 value
 while
 alloc
+clone
+route
