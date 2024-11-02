@@ -6,7 +6,7 @@ function Terminate() {
     const{terminate, solution, currentAttempt} = useContext(AppContext)
   return (
     <div className = "terminate">
-        <h3>{terminate.won ? "You guessed it!" : "You ran out of tries."} </h3>
+        <h3>{terminate.won ? "You are correct!" : "You ran out of tries."} </h3>
         <h1>The correct word was <span>{solution}</span>.</h1>
         {terminate.won && (<h3>You took <span>{currentAttempt.attempt}</span> attempts.</h3>)}
     </div>
